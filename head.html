@@ -1,15 +1,1 @@
-<script crossorigin="anonymous" src="https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js"></script>
-<script type="text/javascript">
-   twind.setup(
-    {
-      mode: 'silent',  // Behave well with semantic UI classes
-      preflight: () => {
-        return {
-           // Custom styles based on selectors go here (use the selector in Markdown; see below)
-           ".my-highlight": twind.apply("bg-yellow-100 text-green-500 font-bold p-2"
-        }
-      }
-    }
-  );
-  twindObserve.observe(document.documentElement)
-</script>
+<script type="module" src="https://cdn.skypack.dev/twind/shim"></script>

@@ -10,9 +10,10 @@ Use [flems.io](http://flems.io) to create prototypes:
 You can embed editables examples like:
 
 ```{=html}
+<div id="example1"></div>
 <script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
 <script>
-const flems = Flems(document.body, {
+const flems = Flems(example1, {
     files: [{
         name: 'app.js',
         content: 'm.render(document.body, m("h1", "Hello world"))'

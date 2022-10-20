@@ -26,3 +26,15 @@ const flems = Flems(example1, {
 })
 </script>
 ```
+
+## Css customization
+
+you can use tailwind  here:
+
+## Highlights of the day:
+
+:::{.rounded .shadow-2xl .border-2 .border-solid .border-pink-400 .text-xl .mb-4}
+- Drank a [new]{.my-highlight} type of *coffee*
+- Hacked a new feature to my pet project
+- Enjoyed doing nothing in particular
+:::

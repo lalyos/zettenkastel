@@ -10,7 +10,7 @@ Use [flems.io](http://flems.io) to create prototypes:
 You can embed editables examples like:
 
 ```{=html}
-<div id="example1"></div>
+<div id="example1" style="height: 200px;"></div>
 <script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
 <script>
 const flems = Flems(example1, {
